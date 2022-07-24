@@ -20,6 +20,12 @@
     font-size: 400%;
     letter-spacing: 4px;
 }
+.pc{
+    display: block;
+}
+.mobile{
+    display: none;
+}
 .blink{
     margin-right: 50px;
     height: 45px;
@@ -175,17 +181,23 @@ a{
 }
 @media (max-width:500px){
     .labeldel{
-        position: absolute;right:10px;top:6%;
-        font-size: 280%;
+        position: absolute;right:10px;top:3%;
+        font-size: 180%;
         letter-spacing: 2px;
     }
     .container {
         margin:6.5% 6%;
         width: 320px;
-        height: 200px;
+        height: 220px;
     }
     .intro{
         width: 80%;
         margin: 1.5% 16%;
+    }
+    .pc{
+        display: none;
+    }
+    .mobile{
+        display: block;
     }
 }
