@@ -33,8 +33,18 @@
                         img.src="./poster design/4.png";
                     }
             }
+            function test(){
+                var t1 = document.getElementById('loadbg');
+                t1.style.display="none";
+            }
         </script>
-        <body>
+        <body onload="test()">
+            <div class="loadbg" id="loadbg">
+                <div class="load" id="load">
+                    <div class='loader'></div>
+                    <div class="loadfont">loading...</div>
+                </div>
+            </div>
             <div class="title">
                 <a href="https://missdin.github.io/DEL-motion-graphic/mg.html" class="label">
                     motion graphic
